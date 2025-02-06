@@ -10,5 +10,6 @@
      for(int i = 0; i < 10; i++) {
         printf("Valores -> %d",ponteiro[i]);
      }
+     free(ponteiro);
      return 0;
     }
