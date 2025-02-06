@@ -17,5 +17,8 @@ int main() {
 
     printf("Depois da troca: x = %d, y = %d\n", x, y);
 
+
+    free(a);
+    free(b);
     return 0;
 }
