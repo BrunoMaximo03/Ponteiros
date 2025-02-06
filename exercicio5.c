@@ -20,6 +20,6 @@ int main() {
         printf("Na posicao %d temos o valor %d   ",i,vetor[i]);
     }
 
-
+    free(vetor);
     return 0;
 }
