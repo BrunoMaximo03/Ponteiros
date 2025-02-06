@@ -20,4 +20,5 @@
 
         printf("O maior valor entre %d e %d eh: %d\n", num1, num2, resultado);
         return 0;
+        free(ponteiro);
     }
