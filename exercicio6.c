@@ -17,7 +17,7 @@ int main() {
     }
     printf("Existem %d caracteres na string\n",conta);
 
-
+    free(ponteiro);
 
     return 0;
 }
